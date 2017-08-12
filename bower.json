@@ -1,0 +1,18 @@
+{
+  "name": "test",
+  "version": "0.0.1",
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "modernizr": "^2.8.3",
+    "uikit": "3"
+  },
+  "devDependencies": {},
+  "override": {
+    "uikit": {
+      "main": [
+        "dist/css/uikit.css",
+        "dist/js/uikit.js"
+      ]
+    }
+  }
+}
